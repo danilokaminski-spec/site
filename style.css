@@ -1,1 +1,43 @@
+body{
+  background-color: seashell;
+  color: maroon;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin:50px
+}
+h1{
+  font-size: 40px;
+  text-align: center;
+  font-family: "Molle", cursive;
+  font-weight: bold;
+}
+p{
+  text-align: justify
+}
+img{
+  margin-top: 20px;
+  max-width: 80%;
+   }
+a{
+  text-decoration: none;
+  color: maroon;
+  text-align: center;
+}
+a:hover{
+  color: blue;
+}
+body.modo_escuro {
+  background-color: black;
+  color: seashell;
+}
 
+
+button {
+  border: 2px solid green;
+  border-radius: 20px;
+  width: 80px;
+  position: fixed;
+  right: 10px;
+  top: 50px
+}

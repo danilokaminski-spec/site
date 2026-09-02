@@ -1,13 +1,13 @@
-const botao = document.getElementById('botao_tema');
+const botaoTema = document.getElementById("botao_tema");
 
-function alternarModo () {
-  document.body.classList.toggle('modo_escuro');
+botaoTema.addEventListener("click", function () {
 
-  if(document.body.classList.contains('modo_escuro')) {
-    botao.textContent = 'Modo Claro';
-  }else {
-    botao.textContent = 'Modo Escuro';
+  document.body.classList.toggle("modo_escuro");
+
+  if (document.body.classList.contains("modo_escuro")) {
+    botaoTema.textContent = "☀️";
+  } else {
+    botaoTema.textContent = "🌙";
   }
- 
-}
-botao.addEventListener('click', alternarModo);
+
+});

@@ -28,7 +28,7 @@ a:hover{
   color: rgb(7, 7, 117);
 }
 body.modo_escuro {
-  background-color: black;
+  background-color: rgb(216, 5, 5);
   color: seashell;
 }
 

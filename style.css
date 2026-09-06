@@ -62,6 +62,9 @@ button {
 }
 img {
     margin-top: 20px;
-    width: 900px;
+}
+
+.quadra {
+    width: 700px;
     max-width: 90%;
 }

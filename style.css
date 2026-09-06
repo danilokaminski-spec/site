@@ -60,3 +60,8 @@ button {
     top: 50px;
     padding: 8px;
 }
+img {
+    margin-top: 20px;
+    width: 900px;
+    max-width: 90%;
+}
